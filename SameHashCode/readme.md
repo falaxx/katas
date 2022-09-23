@@ -16,6 +16,8 @@ stringB.GetHashCode() == stringC.GetHashCode() && !String.Equals(stringB, string
 !String.Equals(stringA, stringC)
 ```
 
+# Solution 
+
 For my solution first I did this in C# since the std::hash (corresponding to GetHashCode() in C#) returns lot more digits in C++, so collisions are more rare, and my solution would not be relevant in term of time execution versus other C# solution. It made me learn a bit of C# as well , created my first .net project wich was interesting.
 
 For me the problem was creating and incrementing strings fast to check their HashCodes.
